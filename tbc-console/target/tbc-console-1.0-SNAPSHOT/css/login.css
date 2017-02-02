@@ -1,0 +1,200 @@
+body, html {
+    background-color: #dfe8f6;
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.theader {
+    border-bottom: 2px solid #8db2e3;
+    height: 38px;
+}
+
+body > footer div {
+    padding-right: 12px;
+    color: #506A96;
+    font-size: 12px;
+    font-weight: bold;
+}
+#loaderGif{
+    display: none;
+    position: fixed;
+    left: 47%;
+    top: 45%;
+}
+
+section.login-form {
+    width: 600px;
+    margin: 140px auto 0;
+}
+
+section.agents-form {
+    border: 1px solid #6a87b8;
+    width: 600px;
+    margin: 140px auto 0;
+}
+
+section.login-form header,section.agents-form header  {
+    text-align: center;
+}
+
+section.login-form header h1, section.agents-form header h1 {
+    color: #06558A;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+section.agents-list form {
+    margin: 0px;
+    padding: 0px;
+}
+
+section.agents-list a {
+    display: block;
+    background: #d6e1f2;
+    font-size: 18px;
+    color: #134161;
+    padding: 6px 20px;
+    -webkit-transition: background 600ms;
+    -moz-transition: background 600ms;
+    -o-transition: background 600ms;
+}
+
+section.agents-list a:hover {
+    text-decoration: none;
+    background: #bbcde8;
+    -webkit-transition: background 600ms;
+    -moz-transition: background 600ms;
+    -o-transition: background 600ms;
+}
+
+section.agents-list {
+    height: 155px;
+    overflow: auto;
+    border-top: 1px dotted #6a87b8;
+}
+
+footer {
+    background-color: #cad7ed;
+    bottom: 0px;
+    position: fixed;
+    text-align: right;
+    width: 100%;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+a {
+    color: #315179;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    color: #06558a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input.text-input {
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    width: 430px;
+    border-width:1px;
+    border:1px solid #cccccc;
+}
+
+select {
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    width: 432px;
+    border-width:1px;
+    border:1px solid #cccccc;
+}
+
+div.action-bar {
+    margin: 8px;
+    text-align: right;
+}
+
+input.submit-button {
+    background-color: #b4c6e4;
+    border-left-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+    color: #214176;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+}
+
+form {
+    margin: 12px;
+}
+
+dl {
+    display: block;
+    margin: 8px;
+}
+
+dl dt {
+    float: left;
+    text-align: right;
+    margin-right: 8px;
+    width: 100px;
+}
+
+dl dd {
+    float: right;
+}
+
+.error-message {
+    color: #FF0000;
+    font-size:12px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.toolbar a {
+    margin-right: 10px;
+}
+
+.toolbar input {
+    margin: 0px 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.toolbar form {
+    text-align: right;
+    margin: 0px 12px 12px 12px !important;
+    padding-top: 5px;
+}
+
+.toolbar .selectedAgent {
+    color: #315179;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.loginButton{
+    opacity: 0.7;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.loginButton:hover{
+    opacity: 1;
+    cursor: pointer;
+}

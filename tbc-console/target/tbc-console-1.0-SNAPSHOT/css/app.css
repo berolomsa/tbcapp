@@ -1,0 +1,463 @@
+.gwt-SuggestBox {
+    padding: 2px;
+}
+.gwt-SuggestBoxPopup {
+    margin-left: 3px;
+    z-index: 9999;
+}
+.gwt-SuggestBoxPopup .item {
+    padding: 2px 6px;
+    color: #424242;
+    cursor: default;
+}
+.gwt-SuggestBoxPopup .item-selected {
+    background: #b7d6f6;
+}
+.gwt-SuggestBoxPopup .suggestPopupContent {
+    background: white;
+}
+.gwt-SuggestBoxPopup .suggestPopupTopCenter {
+    background: url(images/hborder.png) repeat-x;
+}
+.gwt-SuggestBoxPopup .suggestPopupBottomCenter {
+    background: url(images/hborder.png) repeat-x 0px -4px;
+    -background: url(images/hborder_ie6.png) repeat-x 0px -4px;
+}
+.gwt-SuggestBoxPopup .suggestPopupMiddleLeft {
+    background: url(images/vborder.png) repeat-y;
+}
+.gwt-SuggestBoxPopup .suggestPopupMiddleRight {
+    background: url(images/vborder.png) repeat-y -4px 0px;
+    -background: url(images/vborder_ie6.png) repeat-y -4px 0px;
+}
+.gwt-SuggestBoxPopup .suggestPopupTopLeftInner {
+    width: 5px;
+    height: 5px;
+    zoom: 1;
+}
+.rightButtonDiv {
+    display: table;
+}
+
+.rightButtonDiv img {
+    vertical-align: middle;
+    display: table-cell;
+}
+.rightButtonDiv span {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.gwt-SuggestBoxPopup .suggestPopupTopRightInner {
+    width: 8px;
+    height: 5px;
+    zoom: 1;
+}
+.gwt-SuggestBoxPopup .suggestPopupBottomLeftInner {
+    width: 5px;
+    height: 8px;
+    zoom: 1;
+}
+.gwt-SuggestBoxPopup .suggestPopupBottomRightInner {
+    width: 8px;
+    height: 8px;
+    zoom: 1;
+}
+.gwt-SuggestBoxPopup .suggestPopupTopLeft {
+    background: url(images/corner.png) no-repeat 0px -23px;
+    -background: url(images/corner_ie6.png) no-repeat 0px -23px;
+}
+.gwt-SuggestBoxPopup .suggestPopupTopRight {
+    background: url(images/corner.png) no-repeat -5px -23px;
+    -background: url(images/corner_ie6.png) no-repeat -5px -23px;
+}
+.gwt-SuggestBoxPopup .suggestPopupBottomLeft {
+    background: url(images/corner.png) no-repeat 0px -28px;
+    -background: url(images/corner_ie6.png) no-repeat 0px -28px;
+}
+.gwt-SuggestBoxPopup .suggestPopupBottomRight {
+    background: url(images/corner.png) no-repeat -5px -28px;
+    -background: url(images/corner_ie6.png) no-repeat -5px -28px;
+}
+* html .gwt-SuggestBoxPopup .suggestPopupTopLeftInner {
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+}
+* html .gwt-SuggestBoxPopup .suggestPopupTopRightInner {
+    width: 8px;
+    height: 5px;
+    overflow: hidden;
+}
+* html .gwt-SuggestBoxPopup .suggestPopupBottomLeftInner {
+    width: 5px;
+    height: 8px;
+    overflow: hidden;
+}
+* html .gwt-SuggestBoxPopup .suggestPopupBottomRightInner {
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+}
+
+/** Add css rules here for your application. */
+
+.auto_suggest {
+    z-index: 20;
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    height: 230px;
+}
+
+.original-token-input {
+    width: 396px;
+    border: 1px solid #8496ba;
+    font-size: 12px;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    padding: 4px 8px;
+}
+
+/* Example tokeninput style #2: Facebook style */
+ul.token-input-list-facebook {
+    overflow: hidden;
+
+    /*height: auto !important;*/
+    /*height: 1%;*/
+    height: 20px;
+
+    width: 400px;
+    border: 1px solid #8496ba;
+    cursor: text;
+    font-size: 12px;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    min-height: 1px;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+ul.token-input-list-facebook {
+    list-style-type: none;
+}
+
+ul.token-input-list-facebook li input {
+    border: 0;
+    width: 100px;
+    padding: 0px 3px;
+    background-color: white;
+    margin: -1px 0;
+}
+
+li.token-input-token-facebook {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    margin: 2px;
+    padding: 1px 3px;
+    background-color: #eff2f7;
+    color: #000;
+    cursor: default;
+    border: 1px solid #ccd5e4;
+    font-size: 11px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+}
+
+li.token-input-token-facebook p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+li.token-input-token-facebook span {
+    color: #a6b3cf;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li.token-input-selected-token-facebook {
+    background-color: #5670a6;
+    border: 1px solid #3b5998;
+    color: #fff;
+}
+
+li.token-input-input-token-facebook {
+    float: left;
+}
+
+
+* {
+    font-size: 11px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+.copyright {
+    color: #506A96;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.dashboard-quicklink-block {
+    display: block;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #15428b;
+    background: #ecf1f7;
+    font-size: 13px;
+    height: 50px;
+    width: 220px;
+    margin: 10px 0px 10px 10px;
+    border: 2px #8db2e3 solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #aabfd8;
+    -webkit-transition: border-radius 500ms, background 300ms;
+    -moz-transition: border-radius 500ms, background 300ms;
+    -o-transition: border-radius 500ms, background 300ms;
+}
+
+.dashboard-quicklink-block:hover {
+    background: #e1e9f3;
+    box-shadow: 1px 1px 2px #aabfd8;
+    border-radius: 12px;
+    -webkit-transition: border-radius 2s, background 300ms;
+    -moz-transition: border-radius 500ms, background 300ms;
+    -o-transition: border-radius 500ms, background 300ms;
+}
+
+.dashboard-quicklink-block img {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.header-panel {
+    margin-left:6px;
+    background: #D1DEF1;
+}
+.footer-panel {
+    margin-left:6px;
+    background: #c7d4e9;
+}
+.header-panel-bg {
+    background: #c7d4e9;
+}
+
+input[type="password"] {
+    height: 22px !important;
+}
+
+input[type="text"] {
+    height: 22px !important;
+}
+
+.dynamicForm table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dynamicForm td {
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px dotted #8db2e3;
+}
+
+.status-FINISHED, .status-uploaded {
+    color: green;
+    white-space: nowrap;
+}
+
+.status-PERFORMED, .status-PERFORM_CONFIRMED, .status-CLOSED_NORMAL {
+    color: green;
+    white-space: nowrap;
+}
+
+.status-REFUND_FAILED, .status-REJECTED, .status-FAILED, .status-COLLECT_REJECTED, .status-CANCELLED, .status-CANCEL_FAILED, .status-PERFORM_FAILED, .status-upload_failed, .status-CLOSED_IRREGULAR {
+    color: red;
+    white-space: nowrap;
+}
+
+.status-PERFORMING, .status-CREATED, .status-CANCEL_REQUESTED, .status-WAITING_FOR_PARENT, .status-PENDING, .status-IN_PROGRESS, .status-upload_requested, .status-OPENED {
+    color: #ff9c00;
+    white-space: nowrap;
+}
+
+.status-message {
+    color: red;
+    white-space: normal;
+}
+
+.status-COLLECTED {
+    color: darkgoldenrod;
+}
+
+.status-CANCELLING {
+    color: deepskyblue;
+}
+
+.status-PERFORMED_MANUALLY, .status-MANUAL_CANCEL_REQUIRED, .status-CANCELED_MANUALLY {
+    color: darkcyan;
+}
+
+.status-DELETED {
+    color: #454545;
+}
+
+.status-REFUND_REQUESTED {
+    color: #ff9c00;
+}
+
+.status-REFUNDED {
+    color: #00AA00;
+}
+
+.status-PROCESSED {
+    color: #59aa1f;
+}
+
+.status-REGISTERED {
+    color: #3b49aa;
+}
+
+.status-REGISTER_REJECTED {
+    color: #990000;
+}
+
+.status-RECREATED {
+    color: #00AA00;
+}
+
+.status-ACTIVE {
+    color: green;
+}
+
+.status-SUBSCRIBED {
+    color: darkorange;
+}
+
+.status-SUBSCRIBABLE {
+    color: darkgrey;
+}
+
+.status-OFFERED_BY_ME {
+    color: green;
+}
+
+.account-configuration-table {
+    text-align: center;
+    border-collapse: collapse;
+}
+.account-configuration-table > tbody > tr > td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid darkgray;
+    align-content: center;
+    align-items: center;
+}
+
+.account-configuration-table-header{
+    text-align: center;
+    font-size: 12px;
+    background-color: #bbcde8;
+}
+.account-number-font {
+    font-size: 12px;
+}
+
+.account-number-font-small {
+    font-size: 11px;
+}
+
+.gridHeaderCheckboxHeight div:first-child div table tbody tr:first-child td div {
+    height: 17px !important;
+}
+
+.offering-table-header {
+    text-align: center;
+    font-size: 13px;
+    background-color: #bbcde8;
+}
+
+
+.only-vertical-scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.execution-process-dead-style {
+    background-color: #FF8282 !important;
+}
+
+.execution-process-progress-style {
+    background-color: #C3FDB8 !important;
+}
+
+.execution-process-waiting-style {
+    background-color: #FFFFC2 !important;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+.only-horizontal-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.account-number-small {
+    font-size: 11px;
+}
+
+.account-number-small-default {
+    font-size: 11px;
+    color: darkgrey;
+}
+
+.account-number-small-filled {
+    font-size: 11px;
+    color: #000000;
+}
+
+.account-number {
+    font-size: 12px;
+}
+
+.account-number-default {
+    font-size: 12px;
+    color: darkgrey;
+}
+
+.account-number-filled {
+    font-size: 12px;
+    color: #000000;
+}
+
+.aggregated-statuses {
+    max-height: 55px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    line-height: 13px;
+}
+
+.aggregated-statuses span {
+    font-size: 9px;
+}
+
+.aggregated-statuses b {
+    font-size: 9px;
+}

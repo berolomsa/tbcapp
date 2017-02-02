@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="tbc-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tbc-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="src/main/resources" />
+      <element id="archive" name="tbc-server-1.0-SNAPSHOT.jar">
+        <element id="module-output" name="tbc-server" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="tbc-gateway-1.0-SNAPSHOT.jar">
+          <element id="module-output" name="tbc-gateway" />
+        </element>
+        <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.24.Final" />
+        <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+        <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+        <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.8" />
+        <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+        <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+        <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+        <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
+        <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+        <element id="library" level="project" name="Maven: org.jboss.spec.javax.ejb:jboss-ejb-api_3.1_spec:1.0.1.Final" />
+      </element>
+      <element id="archive" name="tbc-console-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="tbcapp-console:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

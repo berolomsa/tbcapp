@@ -1,0 +1,40 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui"
+             xmlns:gform="urn:import:com.sencha.gxt.widget.core.client.form"
+             xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button">
+
+	<g:HTMLPanel>
+        <header class="theader">
+            <div class="toolbar">
+            </div>
+        </header>
+        <g:HTMLPanel ui:field="loginPanel" visible="false">
+            <section class="login-form">
+                <header>
+                    <h1>გთხოვთ შეხვიდეთ სისტემაში</h1>
+                </header>
+                <section>
+                    <div class="error-message">
+                        <g:Label ui:field="errorLabel" />
+                    </div>
+                    <form id="auth-form">
+                        <dl class="clearfix">
+                            <dt><label>მომხმარებელი: </label></dt>
+                            <dd class="text-input"><gform:TextField ui:field="username"/></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><label>პაროლი: </label></dt>
+                            <dd class="text-input"><gform:PasswordField ui:field="password"/></dd>
+                        </dl>
+                        <div class="action-bar">
+                            <button:TextButton ui:field="submitButton" text="შესვლა" />
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </g:HTMLPanel>
+        <footer>
+        </footer>
+	</g:HTMLPanel>
+</ui:UiBinder>

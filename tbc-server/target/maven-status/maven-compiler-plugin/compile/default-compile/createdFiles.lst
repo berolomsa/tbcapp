@@ -1,0 +1,9 @@
+models\DeviceType.class
+GatewayServerManager.class
+models\Device.class
+models\SystemUser.class
+GatewayRequestProcessorFactory.class
+beans\DeviceManagerBean.class
+utils\MapSerializer.class
+dialect\CustomPostgreSQLDialect.class
+utils\EJBUtils.class

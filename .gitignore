@@ -1,0 +1,16 @@
+.idea
+.idea/*
+*.iml
+*/*.iml
+*.class
+*.orig
+target/
+*.bat
+.classpath
+.project
+.settings
+.git
+*.log
+.gwt
+cdms-client-emulator/controllers.txt
+cdms-client-emulator/scenarios.xml

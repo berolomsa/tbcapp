@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>tbcapp</artifactId>
+        <groupId>tbc-app</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tbc-ear</artifactId>
+
+    <name>TBC App Ear</name>
+    <packaging>ear</packaging>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-ear-plugin</artifactId>
+                        <version>2.8</version>
+                        <configuration>
+                            <earSourceDirectory>src/main/resources</earSourceDirectory>
+                            <filtering>true</filtering>
+                            <generateApplicationXml>true</generateApplicationXml>
+                            <version>6</version>
+                            <applicationName>tbcapp</applicationName>
+                            <initializeInOrder>true</initializeInOrder>
+                            <finalName>tbcapp-ear-${project.version}</finalName>
+                            <defaultJavaBundleDir>lib</defaultJavaBundleDir>
+                            <modules>
+                                <ejbModule>
+                                    <groupId>tbc-app</groupId>
+                                    <artifactId>tbc-server</artifactId>
+                                </ejbModule>
+                                <webModule>
+                                    <groupId>tbc-app</groupId>
+                                    <artifactId>tbc-console</artifactId>
+                                    <contextRoot>/tbc-console</contextRoot>
+                                </webModule>
+                            </modules>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+            <dependencies>
+                <dependency>
+                    <groupId>tbc-app</groupId>
+                    <artifactId>tbc-server</artifactId>
+                    <version>${project.version}</version>
+                    <type>ejb</type>
+                </dependency>
+                <dependency>
+                    <groupId>tbc-app</groupId>
+                    <artifactId>tbc-console</artifactId>
+                    <version>${project.version}</version>
+                    <type>war</type>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
+
+
+</project>
