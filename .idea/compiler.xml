@@ -17,40 +17,25 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for tbc-server" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="tbc-server" />
-      </profile>
-      <profile default="false" name="Annotation profile for tbc-gateway" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="tbc-gateway" />
-      </profile>
-      <profile default="false" name="Annotation profile for tbc-ear" enabled="true">
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="tbc-ear" />
-      </profile>
-      <profile default="false" name="Annotation profile for tbcapp-console" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
+        <module name="tbc-gateway" />
+        <module name="tbc-server" />
+        <module name="tbc-services" />
         <module name="tbcapp-console" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service" target="1.7" />
+      <module name="services" target="1.7" />
       <module name="tbc-ear" target="1.7" />
       <module name="tbc-gateway" target="1.7" />
       <module name="tbc-server" target="1.7" />
+      <module name="tbc-services" target="1.7" />
       <module name="tbcapp" target="1.7" />
       <module name="tbcapp-console" target="1.7" />
     </bytecodeTargetLevel>

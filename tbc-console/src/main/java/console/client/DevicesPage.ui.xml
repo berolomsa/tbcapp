@@ -1,0 +1,42 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:container="urn:import:com.sencha.gxt.widget.core.client.container"
+             xmlns:toolbar="urn:import:com.sencha.gxt.widget.core.client.toolbar"
+             xmlns:form='urn:import:com.sencha.gxt.widget.core.client.form'
+             xmlns:z="urn:import:console.zcomp"
+             xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button"
+             xmlns:grid="urn:import:com.sencha.gxt.widget.core.client.grid">
+
+    <ui:with type="com.sencha.gxt.widget.core.client.container.VerticalLayoutContainer.VerticalLayoutData" field="toolbarPanelLayout">
+        <ui:attributes width="1" height="-1"   />
+    </ui:with>
+
+    <ui:with type="com.sencha.gxt.widget.core.client.container.VerticalLayoutContainer.VerticalLayoutData" field="gridLayout">
+        <ui:attributes width="1" height="1" />
+    </ui:with>
+
+    <ui:with type="com.sencha.gxt.widget.core.client.container.VerticalLayoutContainer.VerticalLayoutData" field="bottomData">
+        <ui:attributes width="1" height="-1" />
+    </ui:with>
+
+    <container:VerticalLayoutContainer>
+        <container:child layoutData="{toolbarPanelLayout}" >
+            <toolbar:ToolBar ui:field="toolbar">
+                <form:TextField ui:field="name" />
+                <toolbar:SeparatorToolItem  ui:field="separator1"/>
+                <z:ZButton ui:field="searchButton"  />
+                <toolbar:SeparatorToolItem  ui:field="separator2"/>
+                <button:TextButton ui:field="addButton"  />
+            </toolbar:ToolBar>
+        </container:child>
+
+        <container:child layoutData="{gridLayout}">
+            <grid:Grid ui:field="grid" />
+        </container:child>
+
+        <container:child layoutData="{bottomData}">
+            <toolbar:PagingToolBar  ui:field="paging" />
+        </container:child>
+
+    </container:VerticalLayoutContainer>
+
+</ui:UiBinder>

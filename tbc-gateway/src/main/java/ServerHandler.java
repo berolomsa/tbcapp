@@ -46,6 +46,5 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx);
-        requestProcessorFactory.inactiveTerminal(terminalId);
     }
 }

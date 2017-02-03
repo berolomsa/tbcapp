@@ -13,6 +13,7 @@
         <module>tbc-ear</module>
         <module>tbc-server</module>
         <module>tbc-console</module>
+        <module>tbc-services</module>
     </modules>
 
     <profiles>
@@ -25,6 +26,7 @@
                 <module>tbc-server</module>
                 <module>tbc-ear</module>
                 <module>tbc-console</module>
+                <module>tbc-services</module>
             </modules>
         </profile>
     </profiles>

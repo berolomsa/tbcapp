@@ -249,7 +249,7 @@ function tbcapp(){
   $stats && $stats({moduleName:'tbcapp', sessionId:$sessionId_0, subSystem:'startup', evtGroup:'bootstrap', millis:(new Date).getTime(), type:'selectingPermutation'});
   if (!isHostedMode()) {
     try {
-      strongName = '499968A492DA322DD8BF3BE0D0E12F51';
+      strongName = 'FFFD56E7EA69552CBD77A593F07D3F22';
       var idx = strongName.indexOf(':');
       if (idx != -1) {
         softPermutationId = Number(strongName.substring(idx + 1));

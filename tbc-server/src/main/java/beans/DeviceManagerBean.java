@@ -1,7 +1,7 @@
 package beans;
 
 import models.Device;
-import models.SystemUser;
+import services.DeviceManager;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -10,7 +10,7 @@ import javax.persistence.Query;
 import java.util.List;
 
 @Stateless
-public class DeviceManagerBean {
+public class DeviceManagerBean implements DeviceManager {
 
 	@PersistenceContext
 	private EntityManager em;

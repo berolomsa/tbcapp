@@ -7,6 +7,9 @@
         <element id="file-copy" path="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="dir-copy" path="src/main/resources" />
+      <element id="archive" name="tbc-services-1.0-SNAPSHOT.jar">
+        <element id="module-output" name="tbc-services" />
+      </element>
       <element id="archive" name="tbc-server-1.0-SNAPSHOT.jar">
         <element id="module-output" name="tbc-server" />
       </element>

@@ -20,10 +20,10 @@ public class IconButtonDefaultAppearance_ToolButtonResources_default_InlineClien
         return "style";
       }
       public String getText() {
-        return com.google.gwt.i18n.client.LocaleInfo.getCurrentLocale().isRTL() ? ((".GCGCW0WDOO{width:" + ("15px")  + ";height:" + ("15px")  + ";overflow:" + ("hidden")  + ";margin-right:" + ("2px")  + ";background-repeat:" + ("no-repeat")  + ";cursor:" + ("pointer")  + ";}")) : ((".GCGCW0WDOO{width:" + ("15px")  + ";height:" + ("15px")  + ";overflow:" + ("hidden")  + ";margin-left:" + ("2px")  + ";background-repeat:" + ("no-repeat")  + ";cursor:" + ("pointer")  + ";}"));
+        return com.google.gwt.i18n.client.LocaleInfo.getCurrentLocale().isRTL() ? ((".GIAX32YDOO{width:" + ("15px")  + ";height:" + ("15px")  + ";overflow:" + ("hidden")  + ";margin-right:" + ("2px")  + ";background-repeat:" + ("no-repeat")  + ";cursor:" + ("pointer")  + ";}")) : ((".GIAX32YDOO{width:" + ("15px")  + ";height:" + ("15px")  + ";overflow:" + ("hidden")  + ";margin-left:" + ("2px")  + ";background-repeat:" + ("no-repeat")  + ";cursor:" + ("pointer")  + ";}"));
       }
       public java.lang.String button() {
-        return "GCGCW0WDOO";
+        return "GIAX32YDOO";
       }
     }
     ;

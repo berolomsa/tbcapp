@@ -1,13 +1,14 @@
 import beans.DeviceManagerBean;
 import models.Device;
 import models.DeviceType;
+import services.DeviceManager;
 import utils.EJBUtils;
 
 import java.nio.charset.StandardCharsets;
 
 public class GatewayRequestProcessorFactory implements RequestProcessorFactory {
 
-	private DeviceManagerBean deviceManagerBean = EJBUtils.getBean(DeviceManagerBean.class);
+	private DeviceManager deviceManagerBean = EJBUtils.getBean(DeviceManagerBean.class);
 
 	@Override
     public byte[] process(PacketData packetData) throws Exception {
@@ -42,12 +43,6 @@ public class GatewayRequestProcessorFactory implements RequestProcessorFactory {
 			return "0".getBytes();
 		}
 
-    }
-
-    @Override
-    public void inactiveTerminal(long terminalId) {
-//        RequestProcessor processor = new MessageProcessor();
-//        processor.inactiveTerminal(terminalId);
     }
 
 }

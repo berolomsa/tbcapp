@@ -1,0 +1,15 @@
+.cell-button {
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C8C8C8;
+    border-radius: 5px;
+    padding: 3px;
+    float: left;
+    margin-left: 0px;
+}
+
+.cell-button-active:hover {
+    background-color: #FFFFFF;
+    border-color: #819FF7;
+}

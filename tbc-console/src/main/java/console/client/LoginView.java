@@ -52,7 +52,7 @@ public class LoginView extends Composite {
 			public void onKeyDown(KeyDownEvent event) {
 				if(event.getNativeKeyCode() == KeyCodes.KEY_ENTER) {
 					RootLayoutPanel.get().remove(0);
-					RootLayoutPanel.get().add(new Button());
+					RootLayoutPanel.get().add(new DevicesPage());
 				}
 			}
 		};

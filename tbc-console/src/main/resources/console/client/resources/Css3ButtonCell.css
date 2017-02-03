@@ -1,0 +1,170 @@
+@def borderRadius value('theme.button.borderRadius','px');
+@def borderColor value('theme.button.border.color');
+@def borderStyle value('theme.button.border.style');
+@def borderWidth value('theme.button.border.toString');
+
+@def gradient value('theme.button.gradient');
+@def overGradient value('theme.button.overGradient');
+@def pressedGradient value('theme.button.pressedGradient');
+
+@def padding value('theme.button.padding.toString');
+
+@def fontSize value('theme.button.font.size','px');
+@def fontFamily value('theme.button.font.family');
+@def fontWeight value('theme.button.font.weight');
+@def fontColor value('theme.button.font.color');
+
+@def smallFontSize value('theme.button.smallFontSize','px');
+@def mediumFontSize value('theme.button.mediumFontSize','px');
+@def largeFontSize value('theme.button.largeFontSize','px');
+@def smallLineHeight value('theme.button.smallLineHeight','px');
+@def mediumLineHeight value('theme.button.mediumLineHeight','px');
+@def largeLineHeight value('theme.button.largeLineHeight','px');
+
+@def css3Leftover value('theme.button.radiusMinusBorderWidth.toString');
+
+.button {
+  border-style: none !important;
+  background-color: #3892D3;
+  box-sizing: border-box;
+  height: 100%;
+
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #FFFFFF 51%, #FFFFFF 100%) !important;
+    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 51%, rgb(255, 255, 255) 100%) !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #3892d3;
+
+  padding: css3Leftover;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.buttonInner {
+  padding: padding;
+  text-align: center;
+  font-size: fontSize;
+  color: fontColor;
+  font-weight: fontWeight;
+  font-family: fontFamily;
+  vertical-align: middle;
+}
+
+.over {
+    background: linear-gradient(to bottom, #f6f6f6 0%, #f5f5f5 50%, #e8e8e8 51%, #f5f5f5 100%) !important;
+    background-image: linear-gradient(rgb(246, 246, 246) 0%, rgb(245, 245, 245) 50%, rgb(232, 232, 232) 51%, rgb(245, 245, 245) 100%) !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+}
+
+.pressed {
+  background: -webkit-linear-gradient(top, pressedGradient) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, pressedGradient) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, pressedGradient) !important; /* IE10+ */
+  background: linear-gradient(to bottom, pressedGradient) !important; /* W3C */
+}
+
+.focused {
+  background: -webkit-linear-gradient(top, overGradient); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, overGradient); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, overGradient); /* IE10+ */
+  background: linear-gradient(to bottom, overGradient); /* W3C */
+}
+
+
+.small {
+  line-height: smallLineHeight;
+  font-size: smallFontSize;
+}
+
+.medium {
+  line-height: mediumLineHeight;
+  font-size: mediumFontSize;
+}
+
+.large {
+  line-height: largeLineHeight;
+  font-size: largeFontSize;
+}
+
+.iconLeft {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px !important;
+}
+
+.iconRight {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px !important;
+}
+
+.iconTop {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+
+.iconBottom {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+
+.noText .iconLeft {
+  margin-right: 0px;
+}
+
+.noText .iconRight {
+  margin-left: 0px;
+}
+
+@sprite .split {
+  gwt-image: 'split';
+  width: auto;
+  height: auto;
+  background-position: right center;
+  padding-right: 20px;
+  background-repeat: no-repeat;
+}
+
+@sprite .splitBottom {
+  gwt-image: 'splitBottom';
+  width: auto;
+  height: auto;
+  background-position: center bottom;
+  padding-bottom: 14px;
+  background-repeat: no-repeat;
+}
+
+@sprite .arrow {
+  gwt-image: 'arrow';
+  width: auto;
+  height: auto;
+  padding-right: 10px;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+@sprite .arrowBottom {
+  gwt-image: 'arrowBottom';
+  width: auto;
+  height: auto;
+  padding-bottom: 14px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}

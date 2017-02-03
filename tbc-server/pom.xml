@@ -15,6 +15,12 @@
     <dependencies>
         <dependency>
             <groupId>tbc-app</groupId>
+            <artifactId>tbc-services</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>tbc-app</groupId>
             <artifactId>tbc-gateway</artifactId>
             <version>${project.version}</version>
         </dependency>

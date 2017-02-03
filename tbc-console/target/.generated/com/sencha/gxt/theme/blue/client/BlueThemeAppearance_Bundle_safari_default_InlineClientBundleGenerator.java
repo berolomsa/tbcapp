@@ -20,16 +20,16 @@ public class BlueThemeAppearance_Bundle_safari_default_InlineClientBundleGenerat
         return "css";
       }
       public String getText() {
-        return com.google.gwt.i18n.client.LocaleInfo.getCurrentLocale().isRTL() ? ((":focus{outline:" + ("none")  + " !important;}.GCGCW0WDDPB{border:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDHPB{border:" + ("none")  + ";border-right:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDIPB{border:" + ("none")  + ";border-left:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDJPB{border:" + ("none")  + ";border-top:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDEPB{border:" + ("none")  + ";border-bottom:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDKPB{color:") + (("gray")  + " !important;cursor:" + ("default")  + " !important;opacity:" + ("0.6")  + ";}.GCGCW0WDKPB *{cursor:" + ("default")  + " !important;}")) : ((":focus{outline:" + ("none")  + " !important;}.GCGCW0WDDPB{border:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDHPB{border:" + ("none")  + ";border-left:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDIPB{border:" + ("none")  + ";border-right:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDJPB{border:" + ("none")  + ";border-top:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDEPB{border:" + ("none")  + ";border-bottom:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GCGCW0WDKPB{color:") + (("gray")  + " !important;cursor:" + ("default")  + " !important;opacity:" + ("0.6")  + ";}.GCGCW0WDKPB *{cursor:" + ("default")  + " !important;}"));
+        return com.google.gwt.i18n.client.LocaleInfo.getCurrentLocale().isRTL() ? ((":focus{outline:" + ("none")  + " !important;}.GIAX32YDDPB{border:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDHPB{border:" + ("none")  + ";border-right:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDIPB{border:" + ("none")  + ";border-left:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDJPB{border:" + ("none")  + ";border-top:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDEPB{border:" + ("none")  + ";border-bottom:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDKPB{color:") + (("gray")  + " !important;cursor:" + ("default")  + " !important;opacity:" + ("0.6")  + ";}.GIAX32YDKPB *{cursor:" + ("default")  + " !important;}")) : ((":focus{outline:" + ("none")  + " !important;}.GIAX32YDDPB{border:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDHPB{border:" + ("none")  + ";border-left:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDIPB{border:" + ("none")  + ";border-right:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDJPB{border:" + ("none")  + ";border-top:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDEPB{border:" + ("none")  + ";border-bottom:" + ("1px"+ " " +"solid"+ " " +"#99bbe8")  + " !important;}.GIAX32YDKPB{color:") + (("gray")  + " !important;cursor:" + ("default")  + " !important;opacity:" + ("0.6")  + ";}.GIAX32YDKPB *{cursor:" + ("default")  + " !important;}"));
       }
       public java.lang.String backgroundColorLight() {
         return "#e0e8f8";
       }
       public java.lang.String border() {
-        return "GCGCW0WDDPB";
+        return "GIAX32YDDPB";
       }
       public java.lang.String borderBottom() {
-        return "GCGCW0WDEPB";
+        return "GIAX32YDEPB";
       }
       public java.lang.String borderColor() {
         return "#99bbe8";
@@ -38,16 +38,16 @@ public class BlueThemeAppearance_Bundle_safari_default_InlineClientBundleGenerat
         return "orange";
       }
       public java.lang.String borderLeft() {
-        return "GCGCW0WDHPB";
+        return "GIAX32YDHPB";
       }
       public java.lang.String borderRight() {
-        return "GCGCW0WDIPB";
+        return "GIAX32YDIPB";
       }
       public java.lang.String borderTop() {
-        return "GCGCW0WDJPB";
+        return "GIAX32YDJPB";
       }
       public java.lang.String disabled() {
-        return "GCGCW0WDKPB";
+        return "GIAX32YDKPB";
       }
     }
     ;

@@ -38,6 +38,10 @@
                             <modules>
                                 <ejbModule>
                                     <groupId>tbc-app</groupId>
+                                    <artifactId>tbc-services</artifactId>
+                                </ejbModule>
+                                <ejbModule>
+                                    <groupId>tbc-app</groupId>
                                     <artifactId>tbc-server</artifactId>
                                 </ejbModule>
                                 <webModule>
@@ -51,6 +55,12 @@
                 </plugins>
             </build>
             <dependencies>
+                <dependency>
+                    <groupId>tbc-app</groupId>
+                    <artifactId>tbc-services</artifactId>
+                    <version>${project.version}</version>
+                    <type>ejb</type>
+                </dependency>
                 <dependency>
                     <groupId>tbc-app</groupId>
                     <artifactId>tbc-server</artifactId>
