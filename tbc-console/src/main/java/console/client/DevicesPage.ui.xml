@@ -3,6 +3,7 @@
              xmlns:toolbar="urn:import:com.sencha.gxt.widget.core.client.toolbar"
              xmlns:form='urn:import:com.sencha.gxt.widget.core.client.form'
              xmlns:z="urn:import:console.zcomp"
+             xmlns:toggleButton="urn:import:com.sencha.gxt.widget.core.client.togg"
              xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button"
              xmlns:grid="urn:import:com.sencha.gxt.widget.core.client.grid">
 
@@ -21,10 +22,8 @@
     <container:VerticalLayoutContainer>
         <container:child layoutData="{toolbarPanelLayout}" >
             <toolbar:ToolBar ui:field="toolbar">
-                <form:TextField ui:field="name" />
-                <toolbar:SeparatorToolItem  ui:field="separator1"/>
-                <z:ZButton ui:field="searchButton"  />
-                <toolbar:SeparatorToolItem  ui:field="separator2"/>
+                    <button:ToggleButton ui:field="showTablos"/>
+                    <toolbar:SeparatorToolItem  ui:field="separator2"/>
                 <button:TextButton ui:field="addButton"  />
             </toolbar:ToolBar>
         </container:child>

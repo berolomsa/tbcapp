@@ -1,2 +1,3 @@
 # Module tbcapp
 # RPC service class, partial path of RPC policy file
+console.shared.DeviceService, C67343C31779B4599C3372E7CBC352B5.gwt.rpc

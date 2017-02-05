@@ -15,7 +15,6 @@
     <facet type="gwt" name="GWT">
       <configuration>
         <setting name="additionalCompilerParameters" value="-Xms1G" />
-        <setting name="compilerParameters" value="-draftCompile -optimize 0" />
         <setting name="compilerMaxHeapSize" value="2048" />
         <setting name="gwtScriptOutputStyle" value="PRETTY" />
         <setting name="gwtSdkUrl" value="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.6.0/" />
@@ -29,7 +28,7 @@
           <module name="com.azry.ptms.console.login" enabled="false" />
           <module name="com.azry.ptms.console.logindev" enabled="false" />
           <module name="com.azry.ptms.console.zcomp" enabled="false" />
-          <module name="console.app" enabled="false" />
+          <module name="console.appdev" enabled="false" />
           <module name="console.logindev" enabled="false" />
           <module name="console.zcomp" enabled="false" />
           <module name="main.java.console.app" enabled="false" />
@@ -60,6 +59,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="tbc-services" scope="PROVIDED" />
+    <orderEntry type="library" name="Maven: com.allen-sauer.gwt.voices:gwt-voices:3.2.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.gwt:gwt-servlet:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.gwt:gwt-user:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
@@ -95,7 +95,7 @@
     <orderEntry type="module-library">
       <library name="Maven: system:jdk-tools:jdk">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0/jre/../lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_60/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -128,7 +128,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-ee:7.2.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.metadata:jboss-metadata-common:7.0.8.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.metadata:jboss-metadata-ear:7.0.8.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-jmx:7.2.0.Final" level="project" />
@@ -144,13 +143,22 @@
     <orderEntry type="module-library">
       <library name="Maven: com.sun:tools:1.6">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0/jre/../lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_60/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-transactions:7.2.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-jacorb:7.2.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:1.0.4.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.metadata:jboss-metadata-ejb:7.0.8.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jacorb:jacorb:2.3.2.jbossorg-4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss:jboss-transaction-spi:7.0.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.jbossts.jts:jbossjts-jacorb:4.17.3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.jbossts.jts:jbossjts-integration:4.17.3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.resource:jboss-connector-api_1.6_spec:1.0.1.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.logging:jboss-logging:3.1.2.GA" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.security:jboss-negotiation-extras:2.2.2.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.security:jboss-negotiation-common:2.2.2.Final" level="project" />

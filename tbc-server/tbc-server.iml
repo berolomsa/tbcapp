@@ -50,7 +50,7 @@
     <orderEntry type="module-library">
       <library name="Maven: system:jdk-tools:jdk">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0/jre/../lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_60/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -82,7 +82,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-ee:7.2.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.metadata:jboss-metadata-common:7.0.8.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.metadata:jboss-metadata-ear:7.0.8.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-jmx:7.2.0.Final" level="project" />
@@ -98,13 +97,22 @@
     <orderEntry type="module-library">
       <library name="Maven: com.sun:tools:1.6">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0/jre/../lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_60/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-transactions:7.2.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.as:jboss-as-jacorb:7.2.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:1.0.4.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.metadata:jboss-metadata-ejb:7.0.8.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jacorb:jacorb:2.3.2.jbossorg-4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss:jboss-transaction-spi:7.0.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.jbossts.jts:jbossjts-jacorb:4.17.3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.jbossts.jts:jbossjts-integration:4.17.3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.resource:jboss-connector-api_1.6_spec:1.0.1.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.security:jboss-negotiation-extras:2.2.2.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.security:jboss-negotiation-common:2.2.2.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.security:jboss-negotiation-spnego:2.2.2.Final" level="project" />

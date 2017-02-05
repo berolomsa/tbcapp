@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/tbc-gateway/tbc-gateway.iml" filepath="$PROJECT_DIR$/tbc-gateway/tbc-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbc-server/tbc-server.iml" filepath="$PROJECT_DIR$/tbc-server/tbc-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbc-services/tbc-services.iml" filepath="$PROJECT_DIR$/tbc-services/tbc-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tbc-services/tbc-services.iml" filepath="$PROJECT_DIR$/tbc-services/tbc-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbcapp.iml" filepath="$PROJECT_DIR$/tbcapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbc-console/tbcapp-console.iml" filepath="$PROJECT_DIR$/tbc-console/tbcapp-console.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbcservices.iml" filepath="$PROJECT_DIR$/tbcservices.iml" />

@@ -13,10 +13,13 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 import com.sencha.gxt.widget.core.client.Composite;
+import com.sencha.gxt.widget.core.client.box.MessageBox;
 import com.sencha.gxt.widget.core.client.button.TextButton;
 import com.sencha.gxt.widget.core.client.event.SelectEvent;
 import com.sencha.gxt.widget.core.client.form.PasswordField;
 import com.sencha.gxt.widget.core.client.form.TextField;
+import console.shared.DeviceService;
+import console.shared.DeviceServiceAsync;
 
 public class LoginView extends Composite {
 
@@ -39,7 +42,9 @@ public class LoginView extends Composite {
 	@UiField
 	TextButton submitButton;
 
+	private DeviceServiceAsync deviceService;
 	public LoginView() {
+		deviceService = GWT.create(DeviceService.class);
 		initWidget(uiBinder.createAndBindUi(this));
 		changeStyle();
 		initHandler();
@@ -51,8 +56,22 @@ public class LoginView extends Composite {
 	    	@Override
 			public void onKeyDown(KeyDownEvent event) {
 				if(event.getNativeKeyCode() == KeyCodes.KEY_ENTER) {
-					RootLayoutPanel.get().remove(0);
-					RootLayoutPanel.get().add(new DevicesPage());
+					deviceService.checkUser(username.getCurrentValue(), password.getCurrentValue(), new AsyncCallback<Boolean>() {
+						@Override
+						public void onFailure(Throwable caught) {
+
+						}
+
+						@Override
+						public void onSuccess(Boolean result) {
+							if (result) {
+								RootLayoutPanel.get().remove(0);
+								RootLayoutPanel.get().add(new DevicesPage());
+							} else {
+								new MessageBox("ხარვეზი","მომხმარებლის სახელი ან პაროლი არასწორია").show();
+							}
+						}
+					});
 				}
 			}
 		};

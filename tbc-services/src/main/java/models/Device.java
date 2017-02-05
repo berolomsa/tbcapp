@@ -14,12 +14,18 @@ public class Device {
 
 	private int current;
 
-	private boolean isHomeless;
+	private boolean isHomeless = false
+			;
 
-	private boolean isHomeless2;
+	private boolean isHomeless2 = false;
+
+	private String address;
 
 	private DeviceType deviceType;
 
+	private String mobile;
+
+	private boolean problematic = false;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -80,5 +86,28 @@ public class Device {
 		this.deviceType = type;
 	}
 
+	public String getAddress() {
+		return address;
+	}
 
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	public boolean isProblematic() {
+		return problematic;
+	}
+
+	public void setProblematic(boolean problem) {
+		this.problematic = problem;
+	}
 }
+

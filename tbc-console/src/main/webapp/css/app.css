@@ -341,7 +341,6 @@ input[type="text"] {
 .status-ACTIVE {
     color: green;
 }
-
 .status-SUBSCRIBED {
     color: darkorange;
 }

@@ -7,6 +7,7 @@
           <element id="module-output" name="tbcapp-console" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.allen-sauer.gwt.voices:gwt-voices:3.2.0" />
           <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.6.0" />
           <element id="library" level="project" name="Maven: com.google.gwt:gwt-user:2.6.0" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />

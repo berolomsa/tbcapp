@@ -2,5 +2,6 @@ C:\dev\tbcapp\source\tbc-server\src\main\java\utils\EJBUtils.java
 C:\dev\tbcapp\source\tbc-server\src\main\java\beans\DeviceManagerBean.java
 C:\dev\tbcapp\source\tbc-server\src\main\java\dialect\CustomPostgreSQLDialect.java
 C:\dev\tbcapp\source\tbc-server\src\main\java\utils\MapSerializer.java
+C:\dev\tbcapp\source\tbc-server\src\main\java\beans\SystemUserManagerBean.java
 C:\dev\tbcapp\source\tbc-server\src\main\java\GatewayServerManager.java
 C:\dev\tbcapp\source\tbc-server\src\main\java\GatewayRequestProcessorFactory.java

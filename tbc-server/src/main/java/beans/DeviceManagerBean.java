@@ -1,6 +1,7 @@
 package beans;
 
 import models.Device;
+import models.DeviceType;
 import services.DeviceManager;
 
 import javax.ejb.Stateless;
@@ -28,11 +29,15 @@ public class DeviceManagerBean implements DeviceManager {
 		}
 	}
 
+	public void addDevice(Device device) {
+		if (getDevice(device.getImei()) == null) {
+			em.merge(device);
+		}
+	}
+
 	public void updateDevice(Device device) {
 		Device findDevice = getDevice(device.getImei());
-		if (findDevice == null) {
-			em.merge(device);
-		} else {
+		if (findDevice != null) {
 			findDevice.setHomeless(device.isHomeless());
 			findDevice.setHomeless2(device.isHomeless2());
 			findDevice.setCurrent(device.getCurrent());
@@ -40,6 +45,16 @@ public class DeviceManagerBean implements DeviceManager {
 			em.merge(findDevice);
 		}
 	}
-//
-//	public List<Device> get
+
+	@Override
+	public List<Device> findDevices(Boolean showTablos) {
+		DeviceType deviceType = DeviceType.HOMELESS;
+		if (showTablos) {
+			deviceType = DeviceType.TABLO;
+		}
+		Query query = em.createQuery("SELECT d from Device d where d.deviceType =:deviceType");
+		query.setParameter("deviceType", deviceType);
+
+		return query.getResultList();
+	}
 }

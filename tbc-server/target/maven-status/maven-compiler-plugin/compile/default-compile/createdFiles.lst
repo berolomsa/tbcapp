@@ -1,4 +1,5 @@
 GatewayServerManager.class
+beans\SystemUserManagerBean.class
 GatewayRequestProcessorFactory.class
 beans\DeviceManagerBean.class
 utils\MapSerializer.class

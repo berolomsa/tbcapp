@@ -5,9 +5,11 @@ C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\helper\TooltipSelec
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\client\resources\Icons.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZIconButtonCell.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZTextField.java
+C:\dev\tbcapp\source\tbc-console\src\main\java\console\shared\DeviceService.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZButton.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZDynamicComboBox.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZWindow.java
+C:\dev\tbcapp\source\tbc-console\src\main\java\console\shared\DeviceTypeDTO.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZURLBuilder.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZFieldLabel.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZGrid.java
@@ -21,11 +23,14 @@ C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\helper\GridClickHan
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZConfirmDialog.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\client\DevicesPage.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZColumnConfig.java
+C:\dev\tbcapp\source\tbc-console\src\main\java\console\shared\DeviceServiceAsync.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZStringProvider.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\ZPagingToolBar.java
+C:\dev\tbcapp\source\tbc-console\src\main\java\console\client\DeviceAddWindow.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\client\LoginView.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\helper\ZKeyValueEntry.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\client\Application.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\EnterKeyBinder.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\zcomp\helper\BooleanStateSelector.java
 C:\dev\tbcapp\source\tbc-console\src\main\java\console\client\resources\IconsFactory.java
+C:\dev\tbcapp\source\tbc-console\src\main\java\console\shared\DeviceServiceImpl.java
