@@ -54,7 +54,6 @@ public class GatewayServer {
                     @Override
                     public void initChannel(SocketChannel ch) throws Exception {
                         ChannelPipeline pipeline = ch.pipeline();
-                        pipeline.addLast(new IdleStateHandler(idleStateTimeout, 0, 0));
                         pipeline.addLast(new PacketDataDecoder());
                         pipeline.addLast(new PacketDataEncoder());
                         pipeline.addLast(eventExecutor, new ServerHandler(gatewayRequestProcessorFactory));

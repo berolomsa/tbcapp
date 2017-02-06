@@ -1,6 +1,7 @@
 package models;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name = "Device")
@@ -10,12 +11,11 @@ public class Device {
 
 	private String imei;
 
-	private int voltage;
+	private int voltage = 0;
 
-	private int current;
+	private int current = 0;
 
-	private boolean isHomeless = false
-			;
+	private boolean isHomeless = false;
 
 	private boolean isHomeless2 = false;
 
@@ -26,6 +26,11 @@ public class Device {
 	private String mobile;
 
 	private boolean problematic = false;
+
+	private String clientIP;
+
+	@Column(nullable = true)
+	private Date lastHomelessDate = null;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -108,6 +113,35 @@ public class Device {
 
 	public void setProblematic(boolean problem) {
 		this.problematic = problem;
+	}
+
+	public Date getLastHomelessDate() {
+		return lastHomelessDate;
+	}
+
+	public void setLastHomelessDate(Date lastHomelessDate) {
+		this.lastHomelessDate = lastHomelessDate;
+	}
+
+	public String getClientIP() {
+		return clientIP;
+	}
+
+	public void setClientIP(String clientIP) {
+		this.clientIP = clientIP;
+	}
+
+	@Override
+	public String toString() {
+		return "Device{" +
+				", deviceType=" + deviceType +
+				", isHomeless2=" + isHomeless2 +
+				", isHomeless=" + isHomeless +
+				", current=" + current +
+				", voltage=" + voltage +
+				", imei='" + imei + '\'' +
+				", id=" + id +
+				'}';
 	}
 }
 

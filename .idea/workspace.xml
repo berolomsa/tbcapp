@@ -2,82 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4be685-ea8f-4648-a771-42fc91165caa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/gwt-unitCache/gwt-unitCache-af3d9ad2fb8be30dc87fdcd6d9a373b2ab675802-0000015A005A7944" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/gwt-unitCache/gwt-unitCache-af3d9ad2fb8be30dc87fdcd6d9a373b2ab675802-0000015A005A7982" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/gwt-unitCache/gwt-unitCache-af3d9ad2fb8be30dc87fdcd6d9a373b2ab675802-0000015A005A79B4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/gwt-unitCache/gwt-unitCache-af3d9ad2fb8be30dc87fdcd6d9a373b2ab675802-0000015A005A79D4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/gwt-unitCache/gwt-unitCache-af3d9ad2fb8be30dc87fdcd6d9a373b2ab675802-0000015A005A79EC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/gwt-unitCache/gwt-unitCache-af3d9ad2fb8be30dc87fdcd6d9a373b2ab675802-0000015A005A7A85" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/deploy/tbcapp/symbolMaps/499968A492DA322DD8BF3BE0D0E12F51.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/tbcapp/499968A492DA322DD8BF3BE0D0E12F51.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-server/src/main/java/models/Device.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-server/src/main/java/models/DeviceType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-server/src/main/java/models/SystemUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-server/target/classes/models/Device.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-server/target/classes/models/DeviceType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-server/target/classes/models/SystemUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-services.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbcapp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tbcservices.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/classes/console/client/LoginView$1.class" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/classes/console/client/LoginView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/classes/console/client/LoginView.class" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/classes/console/client/LoginView.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT.war" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/lib/tbc-gateway-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/lib/tbc-gateway-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/tbc-console-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/tbc-console-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/tbc-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/tbc-ear/target/tbc-ear-1.0-SNAPSHOT/tbc-server-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-ear/target/tbcapp-ear-1.0-SNAPSHOT.ear" afterPath="$PROJECT_DIR$/tbc-ear/target/tbcapp-ear-1.0-SNAPSHOT.ear" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/classes/GatewayServer.class" afterPath="$PROJECT_DIR$/tbc-gateway/target/classes/GatewayServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/classes/PacketData.class" afterPath="$PROJECT_DIR$/tbc-gateway/target/classes/PacketData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/classes/PacketDataDecoder.class" afterPath="$PROJECT_DIR$/tbc-gateway/target/classes/PacketDataDecoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/classes/PacketDataEncoder.class" afterPath="$PROJECT_DIR$/tbc-gateway/target/classes/PacketDataEncoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/classes/ServerHandler.class" afterPath="$PROJECT_DIR$/tbc-gateway/target/classes/ServerHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/tbc-gateway-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/tbc-gateway/target/tbc-gateway-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/classes/GatewayRequestProcessorFactory.class" afterPath="$PROJECT_DIR$/tbc-server/target/classes/GatewayRequestProcessorFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/classes/GatewayServerManager.class" afterPath="$PROJECT_DIR$/tbc-server/target/classes/GatewayServerManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/classes/beans/DeviceManagerBean.class" afterPath="$PROJECT_DIR$/tbc-server/target/classes/beans/DeviceManagerBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/tbc-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/tbc-server/target/tbc-server-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tbcapp_console_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tbcapp_console_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/pom.xml" afterPath="$PROJECT_DIR$/tbc-console/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/java/console/app.gwt.xml" afterPath="$PROJECT_DIR$/tbc-console/src/main/java/console/app.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.java" afterPath="$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.ui.xml" afterPath="$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.ui.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/java/console/client/LoginView.java" afterPath="$PROJECT_DIR$/tbc-console/src/main/java/console/client/LoginView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceDTO.java" afterPath="$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tbc-console/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/webapp/css/app.css" afterPath="$PROJECT_DIR$/tbc-console/src/main/webapp/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/src/main/webapp/css/login.css" afterPath="$PROJECT_DIR$/tbc-console/src/main/webapp/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/core/client/dom/Layer_LayerResources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/core/client/dom/Layer_LayerResources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/core/client/dom/Mask_MaskDefaultAppearance_MaskResources_safari_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/core/client/dom/Mask_MaskDefaultAppearance_MaskResources_safari_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/core/client/resources/CommonStyles_CommonStylesDefaultAppearance_CommonDefaultResources_safari_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/core/client/resources/CommonStyles_CommonStylesDefaultAppearance_CommonDefaultResources_safari_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/button/ButtonCellDefaultAppearance_ButtonCellResources_safari_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/button/ButtonCellDefaultAppearance_ButtonCellResources_safari_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/button/ButtonTableFrameResources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/button/ButtonTableFrameResources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/button/IconButtonDefaultAppearance_ToolButtonResources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/button/IconButtonDefaultAppearance_ToolButtonResources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/field/ErrorTipDefaultAppearance_ErrorTipFrameResources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/field/ErrorTipDefaultAppearance_ErrorTipFrameResources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/field/ErrorTipDefaultAppearance_ErrorTipResources_safari_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/field/ErrorTipDefaultAppearance_ErrorTipResources_safari_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/field/TextFieldDefaultAppearance_TextFieldResources_safari_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/field/TextFieldDefaultAppearance_TextFieldResources_safari_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/tips/TipDefaultAppearance_TipDivFrameResources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/base/client/tips/TipDefaultAppearance_TipDivFrameResources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/blue/client/BlueThemeAppearance_Bundle_safari_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/blue/client/BlueThemeAppearance_Bundle_safari_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/blue/client/tools/BlueTools_BlueToolResources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/tbc-console/target/.generated/com/sencha/gxt/theme/blue/client/tools/BlueTools_BlueToolResources_default_InlineClientBundleGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/tbc-console/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/tbc-console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/tbc-console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/deploy/tbcapp/rpcPolicyManifest/manifest.txt" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/deploy/tbcapp/rpcPolicyManifest/manifest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/css/app.css" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/css/login.css" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/css/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/tbcapp/tbcapp.nocache.js" afterPath="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/tbcapp/tbcapp.nocache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-console/tbcapp-console.iml" afterPath="$PROJECT_DIR$/tbc-console/tbcapp-console.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/tbc-ear/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-ear/tbc-ear.iml" afterPath="$PROJECT_DIR$/tbc-ear/tbc-ear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/src/main/java/GatewayServer.java" afterPath="$PROJECT_DIR$/tbc-gateway/src/main/java/GatewayServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketData.java" afterPath="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataDecoder.java" afterPath="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataDecoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataEncoder.java" afterPath="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataEncoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java" afterPath="$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/tbc-gateway/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-gateway/tbc-gateway.iml" afterPath="$PROJECT_DIR$/tbc-gateway/tbc-gateway.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/src/main/java/GatewayRequestProcessorFactory.java" afterPath="$PROJECT_DIR$/tbc-server/src/main/java/GatewayRequestProcessorFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/src/main/java/GatewayServerManager.java" afterPath="$PROJECT_DIR$/tbc-server/src/main/java/GatewayServerManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java" afterPath="$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/tbc-server/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/tbc-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/tbc-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-server/tbc-server.iml" afterPath="$PROJECT_DIR$/tbc-server/tbc-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java" afterPath="$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tbc-services/src/main/java/services/DeviceManager.java" afterPath="$PROJECT_DIR$/tbc-services/src/main/java/services/DeviceManager.java" />
     </list>
     <ignored path="tbcapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,93 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DevicesPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.0">
-              <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3343#3579#0" expanded="true" />
-                <element signature="e#3436#3533#0" expanded="true" />
-                <element signature="e#3532#3533#0" expanded="true" />
-                <element signature="e#3578#3579#0" expanded="true" />
-                <element signature="e#3587#3617#0" expanded="true" />
-                <element signature="e#3766#3913#0" expanded="true" />
-                <element signature="e#3912#3913#0" expanded="true" />
-                <element signature="e#3991#4120#0" expanded="true" />
-                <element signature="e#4119#4120#0" expanded="true" />
-                <element signature="e#4345#4865#0" expanded="true" />
-                <element signature="e#4864#4865#0" expanded="true" />
-                <element signature="e#5853#6132#0" expanded="true" />
-                <element signature="e#6131#6132#0" expanded="true" />
-                <element signature="e#6403#6404#0" expanded="true" />
-                <element signature="e#6662#6663#0" expanded="true" />
-                <element signature="e#6726#6727#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Device.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java">
+      <file leaf-file-name="PacketDataEncoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1664#1665#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceAddWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/client/DeviceAddWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1769#1915#0" expanded="true" />
-                <element signature="e#1914#1915#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceServiceAsync.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceServiceAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6933333">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/services/DeviceManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -207,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,14 +89,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceDTO.java">
+      <file leaf-file-name="GatewayServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/GatewayServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="58" column="54" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1816#2316#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacketDataDecoder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.80532444">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteBuf.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="439" column="28" selection-start-line="439" selection-start-column="28" selection-end-line="439" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteToMessageDecoder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacketData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GatewayServerManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/GatewayServerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -248,11 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tbc-server/src/main/java/utils/MapSerializer.java" />
-        <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/server/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/app.html" />
-        <option value="$PROJECT_DIR$/tbc-console/target/tbc-console-1.0-SNAPSHOT/WEB-INF/jboss-web.xml" />
-        <option value="$PROJECT_DIR$/tbc-console/src/main/webapp/WEB-INF/jboss-web.xml" />
         <option value="$PROJECT_DIR$/tbc-server/src/main/java/auth/PTMSPrincipal.java" />
         <option value="$PROJECT_DIR$/tbc-server/src/main/java/auth/PTMSLoginModule.java" />
         <option value="$PROJECT_DIR$/tbc-server/src/main/java/auth/TBCPrincipal.java" />
@@ -266,9 +201,7 @@
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/client/Application.java" />
         <option value="$PROJECT_DIR$/tbc-services/src/main/java/DeviceManager.java" />
         <option value="$PROJECT_DIR$/tbc-ear/pom.xml" />
-        <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java" />
         <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/RequestProcessorFactory.java" />
-        <option value="$PROJECT_DIR$/tbc-server/src/main/java/GatewayRequestProcessorFactory.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZURLBuilder.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZPagingToolBar.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/client/ClientFactory.java" />
@@ -294,11 +227,18 @@
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceService.java" />
         <option value="$PROJECT_DIR$/tbc-services/src/main/java/services/DeviceManager.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceDTO.java" />
-        <option value="$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java" />
         <option value="$PROJECT_DIR$/tbc-console/src/main/java/console/client/DeviceAddWindow.java" />
+        <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketData.java" />
+        <option value="$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java" />
+        <option value="$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java" />
+        <option value="$PROJECT_DIR$/tbc-server/src/main/java/GatewayRequestProcessorFactory.java" />
+        <option value="$PROJECT_DIR$/tbc-server/src/main/java/GatewayServerManager.java" />
+        <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/GatewayServer.java" />
+        <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataEncoder.java" />
+        <option value="$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataDecoder.java" />
       </list>
     </option>
   </component>
@@ -350,8 +290,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1324,11 +1264,12 @@
       <workItem from="1485972110089" duration="15438000" />
       <workItem from="1486127663790" duration="5070000" />
       <workItem from="1486211999171" duration="19930000" />
+      <workItem from="1486394812825" duration="12754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40438000" />
+    <option name="totallyTimeSpent" value="53192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1359,13 +1300,13 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997669" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26107225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1379,7 +1320,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1426,19 +1367,40 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tbc-server/src/main/java/beans/SystemUserManagerBean.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataEncoder.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1447,158 +1409,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZConfirmDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZColumnConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/EnterKeyBinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/client/resources/IconsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/resources/console/client/resources/upload.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/client/resources/Icons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/webapp/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/helper/BooleanStateSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/helper/EmptyFieldValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/helper/GridClickHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/helper/IconSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sencha/gxt/gxt/3.1.0/gxt-3.1.0.jar!/com/sencha/gxt/widget/core/client/form/validator/AbstractValidator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/helper/TooltipSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/helper/ZKeyValueEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#289#290#0" expanded="false" />
-            <element signature="e#319#320#0" expanded="false" />
-            <element signature="e#340#341#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/zcomp/ZIconButtonCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1925">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.935484">
@@ -1635,7 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4179106">
           <caret line="342" column="1" selection-start-line="342" selection-start-column="1" selection-end-line="342" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.761194">
           <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1651,7 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1667,10 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="e#3426#3427#0" expanded="false" />
-            <element signature="e#3459#3460#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1685,29 +1488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/beans/SystemUserManagerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/GatewayRequestProcessorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sencha/gxt/gxt/3.1.0/gxt-3.1.0-sources.jar!/com/sencha/gxt/widget/core/client/event/ViewReadyEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,14 +1510,6 @@
           <folding>
             <marker date="1430921669280" expanded="true" signature="1500:1605" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/models/DeviceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1773,10 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="216" column="11" selection-start-line="216" selection-start-column="11" selection-end-line="216" selection-end-column="11" />
-          <folding>
-            <element signature="e#5942#5943#0" expanded="false" />
-            <element signature="e#5964#5965#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1784,7 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026666667">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1792,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1808,35 +1578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.0">
-          <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3343#3579#0" expanded="true" />
-            <element signature="e#3436#3533#0" expanded="true" />
-            <element signature="e#3532#3533#0" expanded="true" />
-            <element signature="e#3578#3579#0" expanded="true" />
-            <element signature="e#3587#3617#0" expanded="true" />
-            <element signature="e#3766#3913#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
-            <element signature="e#3991#4120#0" expanded="true" />
-            <element signature="e#4119#4120#0" expanded="true" />
-            <element signature="e#4345#4865#0" expanded="true" />
-            <element signature="e#4864#4865#0" expanded="true" />
-            <element signature="e#5853#6132#0" expanded="true" />
-            <element signature="e#6131#6132#0" expanded="true" />
-            <element signature="e#6403#6404#0" expanded="true" />
-            <element signature="e#6662#6663#0" expanded="true" />
-            <element signature="e#6726#6727#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1845,22 +1586,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1870,9 +1596,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1769#1915#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1885,10 +1609,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/beans/SystemUserManagerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/models/DeviceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/client/DevicesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1666667">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3436#3533#0" expanded="false" />
+            <element signature="e#3532#3533#0" expanded="false" />
+            <element signature="e#6154#6404#0" expanded="false" />
+            <element signature="e#6403#6404#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/services/DeviceManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/channel/ChannelOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="e#1634#1635#0" expanded="false" />
+            <element signature="e#1670#1671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-services/src/main/java/models/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1102#1103#0" expanded="false" />
+            <element signature="e#1130#1131#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/GatewayRequestProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/RequestProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1896,21 +1731,116 @@
     <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/beans/DeviceManagerBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tbc-console/src/main/java/console/shared/DeviceServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6933333">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="442" column="18" selection-start-line="442" selection-start-column="18" selection-end-line="442" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="324" column="0" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
           <folding>
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#10128#10290#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272728">
+          <caret line="634" column="22" selection-start-line="634" selection-start-column="22" selection-end-line="634" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/util/concurrent/DefaultEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-server/src/main/java/GatewayServerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/GatewayServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="54" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="54" />
+          <folding>
+            <element signature="e#1816#2316#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="439" column="28" selection-start-line="439" selection-start-column="28" selection-end-line="439" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tbc-gateway/src/main/java/PacketDataDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80532444">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

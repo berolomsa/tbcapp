@@ -9,10 +9,7 @@ public class PacketDataEncoder extends MessageToByteEncoder {
 
 	@Override
 	protected void encode(ChannelHandlerContext ctx, Object msg, ByteBuf out) throws Exception {
-		if (msg instanceof PacketData) {
-			PacketData message = (PacketData)msg;
-			out = out.order(ByteOrder.LITTLE_ENDIAN);
-
-		}
+		ctx.write(msg);
+		ctx.flush();
 	}
 }

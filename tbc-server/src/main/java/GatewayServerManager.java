@@ -11,7 +11,7 @@ public class GatewayServerManager {
 	private static final int port = 13000;
 	private static final int workerThreadCount = 4;
 	private static final int executorServiceThreadPoolSize = 32;
-	private static final int idleStateTimeout = 60;
+	private static final int idleStateTimeout = 500;
 
 	@PostConstruct
 	public void start() {

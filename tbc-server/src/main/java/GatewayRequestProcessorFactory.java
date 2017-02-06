@@ -1,12 +1,16 @@
 import beans.DeviceManagerBean;
 import models.Device;
 import models.DeviceType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import services.DeviceManager;
 import utils.EJBUtils;
 
 import java.nio.charset.StandardCharsets;
 
 public class GatewayRequestProcessorFactory implements RequestProcessorFactory {
+
+	private final static Logger log = LoggerFactory.getLogger(GatewayRequestProcessorFactory.class);
 
 	private DeviceManager deviceManagerBean = EJBUtils.getBean(DeviceManagerBean.class);
 
@@ -36,11 +40,12 @@ public class GatewayRequestProcessorFactory implements RequestProcessorFactory {
 			}
 			device.setImei(imei);
 			device.setDeviceType(DeviceType.values()[Integer.parseInt(deviceType)]);
+			device.setClientIP(packetData.getClientIP());
+			log.info("Client IP: " + packetData.getClientIP() + ", msg:" + device.toString());
 			deviceManagerBean.updateDevice(device);
-
-			return "1".getBytes();
+			return null;
 	 	} else {
-			return "0".getBytes();
+			return null;
 		}
 
     }

@@ -17,14 +17,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
 		PacketData request = (PacketData)msg;
 		requestProcessorFactory.process(request);
-//		PacketData response = makeResponsePacket(request, requestProcessorFactory.process(request.getMessageType(), request.getFormat(), request.getData(), terminalId));
-//		ctx.writeAndFlush(response);
-	}
-
-	private PacketData makeResponsePacket(PacketData request, byte [] responseData) {
-		PacketData responsePacket  = new PacketData();
-
-		return responsePacket;
+		ctx.writeAndFlush("");
 	}
 
     @Override
