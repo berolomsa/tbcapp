@@ -19,7 +19,7 @@ public class LoginView_LoginViewUiBinderImpl implements UiBinder<com.google.gwt.
     @Template("<section class='login-form'> <header> <h1>გთხოვთ შეხვიდეთ სისტემაში</h1> </header> <section> <div class='error-message'> <span id='{0}'></span> </div> <form id='auth-form'> <dl class='clearfix'> <dt><label>მომხმარებელი: </label></dt> <dd class='text-input'><span id='{1}'></span></dd> </dl> <dl class='clearfix'> <dt><label>პაროლი: </label></dt> <dd class='text-input'><span id='{2}'></span></dd> </dl> <div class='action-bar'> <span id='{3}'></span> </div> </form> </section> </section>")
     SafeHtml html1(String arg0, String arg1, String arg2, String arg3);
      
-    @Template("<header class='theader'> <div class='toolbar'> </div> </header> <span id='{0}'></span> <footer> </footer>")
+    @Template("<span id='{0}'></span> <footer> </footer>")
     SafeHtml html2(String arg0);
      
   }

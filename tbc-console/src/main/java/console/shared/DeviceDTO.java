@@ -1,13 +1,14 @@
 package console.shared;
 
 import com.google.gwt.core.shared.GwtIncompatible;
+import com.google.gwt.user.client.rpc.IsSerializable;
 import models.Device;
 
-import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
-public class DeviceDTO implements Serializable {
+public class DeviceDTO implements IsSerializable {
 
 	private long id;
 
@@ -19,6 +20,10 @@ public class DeviceDTO implements Serializable {
 
 	private int current;
 
+	private int voltageLive;
+
+	private int currentLive;
+
 	private boolean isHomeless;
 
 	private boolean isHomeless2;
@@ -28,6 +33,10 @@ public class DeviceDTO implements Serializable {
 	private DeviceTypeDTO deviceTypeDTO;
 
 	private boolean problematic;
+
+	private Date lastReceivedPackageDate;
+
+	private boolean online;
 
 	public long getId() {
 		return id;
@@ -109,6 +118,38 @@ public class DeviceDTO implements Serializable {
 		this.problematic = problematic;
 	}
 
+	public Date getLastReceivedPackageDate() {
+		return lastReceivedPackageDate;
+	}
+
+	public void setLastReceivedPackageDate(Date lastReceivedPackageDate) {
+		this.lastReceivedPackageDate = lastReceivedPackageDate;
+	}
+
+	public boolean isOnline() {
+		return online;
+	}
+
+	public void setOnline(boolean online) {
+		this.online = online;
+	}
+
+	public int getCurrentLive() {
+		return currentLive;
+	}
+
+	public void setCurrentLive(int currentLive) {
+		this.currentLive = currentLive;
+	}
+
+	public int getVoltageLive() {
+		return voltageLive;
+	}
+
+	public void setVoltageLive(int voltageLive) {
+		this.voltageLive = voltageLive;
+	}
+
 	@GwtIncompatible
 	public static List<DeviceDTO> getDTOS(List<Device> userGroups) {
 		if (userGroups == null) {
@@ -137,7 +178,10 @@ public class DeviceDTO implements Serializable {
 		dto.setMobile(device.getMobile());
 		dto.setDeviceTypeDTO(DeviceTypeDTO.getDeviceTypeDTO(device.getDeviceType()));
 		dto.setProblematic(device.isProblematic());
-
+		dto.setLastReceivedPackageDate(device.getLastReceivedPackageDate());
+		dto.setOnline(device.isOnline());
+		dto.setCurrentLive(device.getCurrentLive());
+		dto.setVoltageLive(device.getVoltageLive());
 		return dto;
 	}
 

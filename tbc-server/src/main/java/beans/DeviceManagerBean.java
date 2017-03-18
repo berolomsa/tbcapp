@@ -22,9 +22,9 @@ public class DeviceManagerBean implements DeviceManager {
 
 	private static final Logger log = LoggerFactory.getLogger(DeviceManagerBean.class);
 
-	private static final int delta = 500;
+	private static final int deltaPercent = 10;
 
-	private final int differenceInMinutes = 5;
+	private final int differenceInMinutes = 10;
 
 	public Device getDevice(String imei) {
 		Query query = em.createQuery("SELECT d from Device d where d.imei =:imei");
@@ -46,15 +46,32 @@ public class DeviceManagerBean implements DeviceManager {
 		}
 	}
 
+	@Override
+	public void deleteDevice(long id) {
+		em.remove(em.find(Device.class, id));
+	}
+
 	public void updateDevice(Device device) {
 		Device merged = getDevice(device.getImei());
 		if (merged != null) {
 			checkIfProblematic(device, merged);
 			merged.setHomeless(device.isHomeless());
 			merged.setHomeless2(device.isHomeless2());
+			merged.setVoltageLive(device.getVoltage());
+			merged.setCurrentLive(device.getCurrent());
+			merged.setOnline(true);
 			merged.setClientIP(device.getClientIP());
+			merged.setLastReceivedPackageDate(new Date());
 			em.merge(merged);
 		}
+	}
+
+	@Override
+	public void inactiveDevice(String imei) {
+		Device device = getDevice(imei);
+		device.setOnline(false);
+		em.merge(device);
+		log.info("Inactivated device with imei=" + imei);
 	}
 
 	// TABLO TYPE DEVICE PROBLEM
@@ -73,10 +90,11 @@ public class DeviceManagerBean implements DeviceManager {
 				if (merged.getCurrent() !=0 && merged.getVoltage() !=0) {
 					int multiplyNormal = merged.getCurrent() * merged.getVoltage();
 					int multiplyCurrent  = device.getVoltage() * device.getCurrent();
+					int delta = multiplyNormal*deltaPercent/100;
 					if (multiplyCurrent > multiplyNormal - delta && multiplyCurrent < multiplyNormal + delta ) {
-						merged.setProblematic(true);
-					} else {
 						merged.setProblematic(false);
+					} else {
+						merged.setProblematic(true);
 					}
 				}
 			}

@@ -7,6 +7,7 @@
         <jta-data-source>java:jboss/datasources/tbcapp</jta-data-source>
 
         <class>models.SystemUser</class>
+        <class>models.Device</class>
 
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="update" />

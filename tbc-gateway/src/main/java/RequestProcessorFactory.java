@@ -1,4 +1,5 @@
 public interface RequestProcessorFactory {
-    byte[] process(PacketData packetData) throws Exception;
+    String process(PacketData packetData) throws Exception;
 
+	void inactiveDevice(String imei);
 }

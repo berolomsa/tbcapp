@@ -32,10 +32,6 @@
             <grid:Grid ui:field="grid" />
         </container:child>
 
-        <container:child layoutData="{bottomData}">
-            <toolbar:PagingToolBar  ui:field="paging" />
-        </container:child>
-
     </container:VerticalLayoutContainer>
 
 </ui:UiBinder>

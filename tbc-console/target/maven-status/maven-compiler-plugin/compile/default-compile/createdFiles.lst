@@ -13,9 +13,11 @@ console\client\DeviceAddWindow$2.class
 console\client\DevicesPage$1.class
 console\zcomp\ZDynamicComboBox$Builder$2.class
 console\zcomp\EnterKeyBinder$Builder.class
+console\client\DevicesPage$7$1$1.class
 console\zcomp\ZIconButtonCell$1.class
 console\zcomp\ZConfirmDialog$1.class
 console\zcomp\ZDynamicComboBox$4.class
+console\client\DevicesPage$7.class
 console\zcomp\ZIconButtonCell$Template.class
 console\zcomp\ZNumberField.class
 console\zcomp\ZDateField$1.class
@@ -48,6 +50,7 @@ console\zcomp\ZFieldLabel.class
 console\zcomp\ZSimpleComboBox$1.class
 console\zcomp\ZSimpleComboBox$Builder$2.class
 console\zcomp\ZPagingToolBar.class
+console\client\DevicesPage$7$1.class
 console\zcomp\ZSimpleComboBox$Builder.class
 console\zcomp\ZButton.class
 console\zcomp\ZDynamicComboBox$1$1.class
@@ -62,6 +65,7 @@ console\zcomp\ZGrid$1.class
 console\zcomp\ZDynamicComboBox$2.class
 console\client\DeviceAddWindow$4.class
 console\zcomp\ZPagingToolBar$Builder$3.class
+console\client\DevicesPage$9.class
 console\zcomp\ZIconButtonCell$Resources.class
 console\zcomp\ZSimpleComboBox$ZSimpleComboBoxValueChangeEvent.class
 console\zcomp\ZNumberField$1.class
@@ -81,6 +85,7 @@ console\zcomp\ZToolBar.class
 console\zcomp\ZGrid.class
 console\zcomp\helper\EmptyFieldValidator.class
 console\client\DeviceAddWindow$3.class
+console\client\DevicesPage$8.class
 console\zcomp\ZDynamicComboBox$3.class
 console\zcomp\ZWindow.class
 console\client\DevicesPage$GridProperties.class

@@ -12,4 +12,6 @@ public interface DeviceService extends RemoteService {
 	boolean checkUser(String username, String password);
 
 	void addDevice(DeviceDTO deviceDTO);
+
+	void deleteDevice(long id);
 }

@@ -5,10 +5,6 @@
              xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button">
 
 	<g:HTMLPanel>
-        <header class="theader">
-            <div class="toolbar">
-            </div>
-        </header>
         <g:HTMLPanel ui:field="loginPanel" visible="false">
             <section class="login-form">
                 <header>

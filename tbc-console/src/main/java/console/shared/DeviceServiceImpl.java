@@ -31,4 +31,9 @@ public class DeviceServiceImpl extends RemoteServiceServlet implements DeviceSer
 	public void addDevice(DeviceDTO deviceDTO) {
 		deviceManager.addDevice(DeviceDTO.get(deviceDTO));
 	}
+
+	@Override
+	public void deleteDevice(long id) {
+		deviceManager.deleteDevice(id);
+	}
 }

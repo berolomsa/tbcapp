@@ -13,4 +13,8 @@ public interface DeviceManager {
 	List<Device> findDevices(Boolean showTablos);
 
 	void addDevice(Device device);
+
+	void deleteDevice(long id);
+
+	void inactiveDevice(String imei);
 }

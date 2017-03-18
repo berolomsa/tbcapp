@@ -5,7 +5,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 
 public class ServerHandler extends ChannelInboundHandlerAdapter {
 
-    private long terminalId;
+    private String imei = null;
 
 	private RequestProcessorFactory requestProcessorFactory;
 
@@ -16,7 +16,10 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
 		PacketData request = (PacketData)msg;
-		requestProcessorFactory.process(request);
+		String imeiResp = requestProcessorFactory.process(request);
+		if (imei == null) {
+			imei = imeiResp;
+		}
 		ctx.writeAndFlush("");
 	}
 
@@ -39,5 +42,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx);
-    }
+		requestProcessorFactory.inactiveDevice(imei);
+
+	}
 }

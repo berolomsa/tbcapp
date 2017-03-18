@@ -15,7 +15,7 @@ public class GatewayRequestProcessorFactory implements RequestProcessorFactory {
 	private DeviceManager deviceManagerBean = EJBUtils.getBean(DeviceManagerBean.class);
 
 	@Override
-    public byte[] process(PacketData packetData) throws Exception {
+    public String process(PacketData packetData) throws Exception {
 		String request = new String(packetData.getPacketData(), StandardCharsets.UTF_8);
 		if (request.charAt(0) =='#' && request.charAt(request.length()-1) == '*') {
 			request = request.substring(1,request.length()-1);
@@ -43,11 +43,16 @@ public class GatewayRequestProcessorFactory implements RequestProcessorFactory {
 			device.setClientIP(packetData.getClientIP());
 			log.info("Client IP: " + packetData.getClientIP() + ", msg:" + device.toString());
 			deviceManagerBean.updateDevice(device);
-			return null;
+			return imei;
 	 	} else {
 			return null;
 		}
 
     }
+
+	@Override
+	public void inactiveDevice(String imei) {
+		deviceManagerBean.inactiveDevice(imei);
+	}
 
 }

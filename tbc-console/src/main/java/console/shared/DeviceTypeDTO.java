@@ -1,11 +1,10 @@
 package console.shared;
 
 import com.google.gwt.core.shared.GwtIncompatible;
+import com.google.gwt.user.client.rpc.IsSerializable;
 import models.DeviceType;
 
-import java.io.Serializable;
-
-public enum DeviceTypeDTO implements Serializable {
+public enum DeviceTypeDTO implements IsSerializable {
 	TABLO,
 	HOMELESS;
 

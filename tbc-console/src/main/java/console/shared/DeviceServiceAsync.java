@@ -10,4 +10,6 @@ public interface DeviceServiceAsync {
 	void checkUser(String username, String password, AsyncCallback<Boolean> async);
 
 	void addDevice(DeviceDTO deviceDTO, AsyncCallback<Void> async);
+
+	void deleteDevice(long id, AsyncCallback<Void> asyncCallback);
 }

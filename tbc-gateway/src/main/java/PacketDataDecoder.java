@@ -14,7 +14,7 @@ public class PacketDataDecoder extends ByteToMessageDecoder {
 
 	@Override
 	protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
-		in = in.order(ByteOrder.LITTLE_ENDIAN);
+ 		in = in.order(ByteOrder.LITTLE_ENDIAN);
 		if (in.readableBytes() < 2) {
 			return;
 		}

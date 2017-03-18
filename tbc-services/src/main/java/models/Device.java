@@ -15,6 +15,10 @@ public class Device {
 
 	private int current = 0;
 
+	private int voltageLive = 0;
+
+	private int	currentLive = 0;
+
 	private boolean isHomeless = false;
 
 	private boolean isHomeless2 = false;
@@ -28,6 +32,11 @@ public class Device {
 	private boolean problematic = false;
 
 	private String clientIP;
+
+	@Column(nullable = true)
+	private Date lastReceivedPackageDate;
+
+	private boolean online = false;
 
 	@Column(nullable = true)
 	private Date lastHomelessDate = null;
@@ -131,16 +140,55 @@ public class Device {
 		this.clientIP = clientIP;
 	}
 
+	public Date getLastReceivedPackageDate() {
+		return lastReceivedPackageDate;
+	}
+
+	public void setLastReceivedPackageDate(Date lastReceivedPackageDate) {
+		this.lastReceivedPackageDate = lastReceivedPackageDate;
+	}
+
+	public boolean isOnline() {
+		return online;
+	}
+
+	public void setOnline(boolean online) {
+		this.online = online;
+	}
+
+	public int getCurrentLive() {
+		return currentLive;
+	}
+
+	public void setCurrentLive(int currentLive) {
+		this.currentLive = currentLive;
+	}
+
+	public int getVoltageLive() {
+		return voltageLive;
+	}
+
+	public void setVoltageLive(int voltageLive) {
+		this.voltageLive = voltageLive;
+	}
+
 	@Override
 	public String toString() {
 		return "Device{" +
-				", deviceType=" + deviceType +
-				", isHomeless2=" + isHomeless2 +
-				", isHomeless=" + isHomeless +
-				", current=" + current +
-				", voltage=" + voltage +
+				"id=" + id +
 				", imei='" + imei + '\'' +
-				", id=" + id +
+				", voltage=" + voltage +
+				", current=" + current +
+				", isHomeless=" + isHomeless +
+				", isHomeless2=" + isHomeless2 +
+				", address='" + address + '\'' +
+				", deviceType=" + deviceType +
+				", mobile='" + mobile + '\'' +
+				", problematic=" + problematic +
+				", clientIP='" + clientIP + '\'' +
+				", lastReceivedPackageDate=" + lastReceivedPackageDate +
+				", online=" + online +
+				", lastHomelessDate=" + lastHomelessDate +
 				'}';
 	}
 }
