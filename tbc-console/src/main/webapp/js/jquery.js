@@ -1231,7 +1231,6 @@ jQuery.extend({
 		return deferred;
 	},
 
-	// Deferred com.azry.lms.helper
 	when: function( subordinate /* , ..., subordinateN */ ) {
 		var i = 0,
 			resolveValues = core_slice.call( arguments ),

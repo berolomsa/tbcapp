@@ -22,9 +22,9 @@ public class DeviceManagerBean implements DeviceManager {
 
 	private static final Logger log = LoggerFactory.getLogger(DeviceManagerBean.class);
 
-	private static final int deltaPercent = 10;
+	private static final double deltaPercent = 20;
 
-	private final int differenceInMinutes = 10;
+	private final int differenceInMinutes = 2;
 
 	public Device getDevice(String imei) {
 		Query query = em.createQuery("SELECT d from Device d where d.imei =:imei");
@@ -58,7 +58,7 @@ public class DeviceManagerBean implements DeviceManager {
 			merged.setHomeless(device.isHomeless());
 			merged.setHomeless2(device.isHomeless2());
 			merged.setVoltageLive(device.getVoltage());
-			merged.setCurrentLive(device.getCurrent());
+			merged.setCurrentLive((device.getCurrent()-511)/2);
 			merged.setOnline(true);
 			merged.setClientIP(device.getClientIP());
 			merged.setLastReceivedPackageDate(new Date());
@@ -83,14 +83,15 @@ public class DeviceManagerBean implements DeviceManager {
 	private void checkIfProblematic(Device device, Device merged) {
 		if (merged.getDeviceType().equals(DeviceType.TABLO)) {
 			if (merged.getCurrent() == 0 && merged.getVoltage() == 0) {
-				merged.setCurrent(device.getCurrent());
+				merged.setCurrent((device.getCurrent()-511)/2);
 				merged.setVoltage(device.getVoltage());
 				merged.setProblematic(false);
 			} else {
 				if (merged.getCurrent() !=0 && merged.getVoltage() !=0) {
-					int multiplyNormal = merged.getCurrent() * merged.getVoltage();
-					int multiplyCurrent  = device.getVoltage() * device.getCurrent();
-					int delta = multiplyNormal*deltaPercent/100;
+					double multiplyNormal = merged.getCurrent() * merged.getVoltage();
+					double multiplyCurrent  = device.getVoltage() * (device.getCurrent()-511)/2;
+					log.info("multiplyNormal" + multiplyNormal + " multiplyCurrent" + multiplyCurrent);
+					double delta = multiplyNormal*deltaPercent/100;
 					if (multiplyCurrent > multiplyNormal - delta && multiplyCurrent < multiplyNormal + delta ) {
 						merged.setProblematic(false);
 					} else {

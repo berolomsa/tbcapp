@@ -10,13 +10,7 @@
       <element id="archive" name="tbc-services-1.0-SNAPSHOT.jar">
         <element id="module-output" name="tbc-services" />
       </element>
-      <element id="archive" name="tbc-server-1.0-SNAPSHOT.jar">
-        <element id="module-output" name="tbc-server" />
-      </element>
       <element id="directory" name="lib">
-        <element id="archive" name="tbc-gateway-1.0-SNAPSHOT.jar">
-          <element id="module-output" name="tbc-gateway" />
-        </element>
         <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.24.Final" />
         <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
         <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />

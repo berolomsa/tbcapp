@@ -5,6 +5,9 @@
              xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button">
 
 	<g:HTMLPanel>
+        <div class="header-div">
+            <img class="tbc-bank-img" src="images/tbc-logo-normal.png"/>
+        </div>
         <g:HTMLPanel ui:field="loginPanel" visible="false">
             <section class="login-form">
                 <header>
